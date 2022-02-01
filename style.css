@@ -1,0 +1,75 @@
+.d-flex{
+  display: flex;
+  justify-content: center;
+}
+
+header{
+  background-color: rgb(48, 48, 141);
+  text-align: center;
+  color: white;
+  border: solid black 2px;
+  padding: 1px;
+  width:100%;
+}
+
+.lightbox{
+  background-color: lightblue;
+  color: lightblue;
+  padding-top: .2em;
+  margin-top: 2em;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.left-section{
+  text-align: left;
+  width: 40%;
+  padding-left: 10em;
+}
+
+.right-section{
+  padding-left: 5em;
+  width:15%;
+  margin-top:4em;
+  margin-bottom: 5em;
+}
+
+.photo{
+  padding-top: 1em;
+  width:100%
+}
+
+footer{
+  background-color: rgb(48, 48, 141);
+  color: rgb(48, 48, 141);
+  padding: 1em;
+  border: solid black 2px;
+  width:100%;
+  position:fixed;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .left-section{
+    padding-left: 0em;
+    width:60%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .right-section{
+    padding-left: 1em;
+    width:40%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header{
+    width:100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  main{
+    padding:1em;
+  }
+}
